@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Convertor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js"></script>
+</head>
+<body>
+    <h1> Currency Convertor</h1>
+    <div class="section">
+        <div class="source">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                    {% for item in currencies %}
+                    <a href="#">{{ item }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <p class="currency"> Hello</p>
+        </div>
+        <div class="destination">
+            <div class="dropdown">
+                <button onclick="mysecondFunction()" class="dropbtn">Dropdown</button>
+                <div id="mysecondDropdown" class="dropdown-content">
+                    {% for item in currencies %}
+                    <a href="#">{{ item }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <p class="currency">World</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+#title{
+  background-color: #ff4c68;
+}
+
+#title h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+#title button{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0px 18px;
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features{
+    position: relative;
+    padding: 5% 15%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.icon-features{
+  padding-bottom: 5%;
+  color: #ef8172;
+  font-size: 5rem;
+  text-align: justify;
+}
+
+.icon-features :hover{
+  color: red;
+}
+
+#features .col-lg-4{
+  padding: 6% 3% 6% 3%
+}
+
+#features .col-lg-4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#features p{
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #8f8f8f;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#testimonials{
+  position: static;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  position: static;
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.card{
+  text-align: center;
+}
+
+#pricing{
+  position: static;
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 5% 8%;
+}
+
+#cta h3{
+  font-family: "Montserrat";
+  font-size: 4rem;
+}
+
+#cta button{
+  font-family: "Ubuntu"
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Ubuntu";
+  padding: 5% 8%;
+}
+
+.social-handler{
+    font-size: 2rem;
+}
+
+.ftie{
+  margin: 5% 2% 2% 1%;
+}

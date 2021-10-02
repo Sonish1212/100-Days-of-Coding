@@ -1,0 +1,22 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+{% include "header.html" %}
+    <h1> To Do List</h1>
+    {% for post in all_posts %}
+    <div class="todo-sec">
+        <p>{{post.id }} | {{ post.todo }}</p>
+
+        {% if post.complete == False %}
+        <span class="ui gray label">Not Complete</span>
+        {% else %}
+        <span class="ui green label">Completed</span>
+        {% endif %}
+
+        <a class="btn btn-success" href="/update/{{ post.id }}">Update</a>
+        <a class="btn btn-danger" href="/delete/{{ post.id }}">Delete</a>
+    </div>
+{% endfor %}
+{% endblock %}
+{% include 'footer.html' %}
